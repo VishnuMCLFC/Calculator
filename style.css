@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(28, 231, 221);
+}
+.container {
+    width: 370px;
+  }
+  
+  .result {
+    width: 45.1%;
+  }
+  .clear {
+    color: #fff;
+    background-color: rgb(255, 42, 42);
+  }
+  input {
+    padding: 25px;
+    color: rgb(17, 16, 16);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+  }
+  .first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 3px;
+}
+
+button {
+    border: none;
+    background-color: rgb(41, 38, 38);
+    padding: 10px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+}

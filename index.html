@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+  <title>Calculator</title>
+<script src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css" id="theme" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <center>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="first-row">
+        <input type="text" name="result" class="result" id="inpt" value="" >
+        <input type="button" value="C" onclick="clearBox()" class="clear" >
+      </div>
+      <div class="second-row">
+        <input type="button" value="1" onclick="dispNumber('1')" id="one" >
+        <input type="button" value="2" onclick="dispNumber('2')" id="two" >
+        <input type="button" value="3" id="three" onclick="dispNumber('3')" >
+        <input type="button" value="+" onclick="dispNumber('+')" />
+      </div>
+      <div class="third-row">
+        <input type="button" value="4" id="four" onclick="dispNumber('3')" >
+        <input type="button" value="5" id="five" onclick="dispNumber('3')" >
+        <input type="button" value="6" id="six" onclick="dispNumber('3')" >
+        <input type="button" value="-" onclick="dispNumber('3')" >
+      </div>
+      <div class="fourth-row">
+        <input type="button" value="7" id="seven" onclick="dispNumber('7')" >
+        <input type="button" value="8" id="eight" onclick="dispNumber('8')" >
+        <input type="button" value="9" id="nine" onclick="dispNumber('9')" >
+        <input type="button" value="x" onclick="dispNumber('*')" >
+      </div>
+      <div class="fifth-row">
+        <input type="button" value="/" onclick="dispNumber('/')" >
+ <input type="button" value="0" id="zero" onclick="dispNumber('0')" >
+        <input type="button" value="." class="dot" onclick="dispNumber('.')" >
+        <input type="button" value="=" onclick="evaluateExpression()" >
+      </div>
+      
+    </div>
+  </center>
+  
+  
+</body>
+</html>
